@@ -14,7 +14,7 @@ activitylabels<- fread(file.path(path,'UCI HAR Dataset/activity_labels.txt'),
 features<- fread(file.path(path,'UCI HAR Dataset/features.txt'),
                  col.names = c('index','featurenames'))
 
-features_mean_std<- grep('mean|std\\(\\)',features[,2])
+features_mean_std<- grep('mean|std\\(\\)',features[,featurenames])
 
 measurements<-features[features_mean_std,featurenames]
 
