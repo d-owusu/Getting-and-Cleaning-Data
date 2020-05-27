@@ -1,5 +1,5 @@
 ==================================================================
-Human Activity Recognition Using Smartphones Dataset
+## Human Activity Recognition Using Smartphones Dataset
 Version 1.0
 ==================================================================
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
@@ -23,7 +23,7 @@ For each record it is provided:
 - Its activity label. 
 - An identifier of the subject who carried out the experiment.
 
-The dataset includes the following files:
+## The dataset includes the following files:
 =========================================
 
 - 'README.txt'
